@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+    font-size: 1000px; /* Ajusta según tus preferencias */
+    
+}
+
+.site-title {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 60px; /* Ajusta según tus preferencias */ 
+    font-size: 40px; /* Ajusta según tus preferencias */
+    
+}
+
+/* Estilos para la barra de menú de tres líneas */
+.menu-bar {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-bar span {
+    display: block;
+    width: 100%;
+    height: 7px;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+
+.menu-bar:hover span {
+    background-color: #666;
+}
+
+/* Estilos para la imagen del contenido principal */
+.main-image-container {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-image {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Estilos para las flechas */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    cursor: pointer;
+    width: 30px; /* Ajusta el ancho según tus preferencias */
+    height: 4px; /* Ajusta la altura según tus preferencias */
+    background-color: transparent; /* Cambia el fondo a transparente */
+    color: black;
+    border: none;
+    outline: none;
+    z-index: 100;
+}
+
+/* Estilos para la flecha izquierda */
+.arrow.left {
+    left: 350px; /* Ajusta según tus preferencias */
+}
+
+/* Estilos para la flecha derecha */
+.arrow.right {
+    right: 350px; /* Ajusta según tus preferencias */
+}

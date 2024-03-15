@@ -1,0 +1,61 @@
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black; /* Cambiar el color de fondo del encabezado a negro */
+}
+
+/* Estilos para el título */
+.site-title {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+/* Estilos para el cuadro rojo */
+.red-box {
+    background-color: red;
+    padding: 5px 10px; /* Añadir espacio interno al cuadro */
+    border-radius: 5px; /* Añadir bordes redondeados al cuadro */
+    color: white; /* Cambiar el color del texto a blanco */
+    font-style: italic; /* Estilo de letra cursiva */
+    display: inline-block; /* Ajustar el tamaño del cuadro al contenido */
+}
+
+/* Separacionde oagina y edicion */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+}
+.One {
+    background-image: url('Carros.png'); /* Agregar la imagen de fondo */
+    background-size: cover; /* Ajustar el tamaño de la imagen al contenedor */
+
+}
+
+.Two {
+    background-color: black;
+}
+
